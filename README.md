@@ -3,7 +3,7 @@
   Write a function that will allow to read a line ending with a newline character from a file descriptor.
 ## Skills to acquire and use
 •	Fundamentals of C  
-* Rigor  
+•	Rigor  
 •	Algorithm elaboration  
 •	Imperative programming  
 •	Learn a new concept in C programming - static variables  
