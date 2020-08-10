@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   get_next_lin.c                                     :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: openelop <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/24 17:28:52 by openelop          #+#    #+#             */
-/*   Updated: 2019/09/24 17:29:28 by openelop         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "get_next_line.h"
 
 int		line_runner(char **line, char **extra_line, int reader)
@@ -65,17 +53,3 @@ int		get_next_line(const int fd, char **line)
 		return (-1);
 	return (line_runner(line, &extra_line[fd], reader));
 }
-/*
-int		main(void)
-{
-	int fd;
-	char *line;
-
-	fd = open("123", O_RDONLY);
-	while (get_next_line(fd, &line))
-	{
-		ft_putstr(line);
-		ft_putchar('\n');
-	}
-	free(line);
-}*/
