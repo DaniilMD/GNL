@@ -10,10 +10,10 @@
 ## How to run it? (works on Linux and MacOS)
 •	git clone https://github.com/DaniilMD/GNL.git "Folder name"  
 •	cd "Folder name"  
-* cd libft  
+•	cd libft  
 •	make  
-* cd ..
-* gcc main.c get_next_line.c -I . -L libft -lft -o gnl_test
+•	cd ..
+•	gcc main.c get_next_line.c -I . -L libft -lft -o gnl_test
 •	./gnl_test "Text file name"  
 ## What does it do?
 
